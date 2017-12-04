@@ -1,5 +1,6 @@
+import java.io.Serializable;
 
-public class CryptoCurrencyEntry {
+public class CryptoCurrencyEntry implements Serializable {
 	String cryptoName;
 	float currentPricePerUnitInUSD;
 	float totalAcquiredAmount;
